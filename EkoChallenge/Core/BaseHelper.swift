@@ -17,3 +17,25 @@ func debugPrint(_ items: Any...) {
 var screenBounds: CGRect {
     return UIScreen.main.bounds
 }
+
+
+//  SegueHandlerType.swift
+
+protocol SegueHandlerType {
+    associatedtype SegueIdentifier: RawRepresentable
+}
+
+extension SegueHandlerType where Self: UIViewController, SegueIdentifier.RawValue == String {
+    
+    func performSegue(withIdentifier segueIdentifier: SegueIdentifier, sender: Any?) {
+        performSegue(withIdentifier: segueIdentifier.rawValue, sender: sender)
+    }
+    
+    func segueIdentifier(forSegue segue: UIStoryboardSegue) -> SegueIdentifier {
+        guard let identifier = segue.identifier, let segueIdentifier = SegueIdentifier(rawValue: identifier) else {
+            fatalError("Invalid segue identifier \(String(describing: segue.identifier)).")
+        }
+        return segueIdentifier
+    }
+    
+}

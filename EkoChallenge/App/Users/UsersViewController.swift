@@ -11,6 +11,10 @@ import CoreData
 
 class UsersViewController: UITableViewController {
 
+    enum SegueIdentifier: String {
+        case showDetail
+    }
+    
     struct PConstant {
         static let userCell = "userCell"
         static let loadingCell = "loadingCell"
@@ -105,6 +109,18 @@ extension UsersViewController {
     func endRefreshControl() {
         if let refreshControl = refreshControl, refreshControl.isRefreshing {
             refreshControl.endRefreshing()
+        }
+    }
+}
+
+//MARK: - Segue Handler
+extension UsersViewController: SegueHandlerType {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segueIdentifier(forSegue: segue) {
+        case .showDetail:
+            guard let destination = segue.destination as? DetailController,
+                let user = sender as? User else { return }
+            destination.user = user
         }
     }
 }

@@ -76,6 +76,7 @@ extension UsersViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        performSegue(withIdentifier: .showDetail, sender: users[indexPath.row])
     }
         
 }

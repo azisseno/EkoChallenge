@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,10 +24,43 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Users" id="EdM-KW-W3H"/>
+                    <connections>
+                        <segue destination="y8w-Ab-zUI" kind="show" identifier="showDetail" id="cak-Uw-NjK"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T9s-qZ-Jdx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="768.79999999999995" y="-94.002998500749626"/>
+        </scene>
+        <!--Detail Controller-->
+        <scene sceneID="RT8-iV-2uK">
+            <objects>
+                <viewController id="y8w-Ab-zUI" customClass="DetailController" customModule="EkoChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UJK-BQ-xGE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9qn-0N-leL">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9qn-0N-leL" firstAttribute="top" secondItem="Y7o-hW-29E" secondAttribute="top" id="V5w-wV-J6H"/>
+                            <constraint firstItem="Y7o-hW-29E" firstAttribute="bottom" secondItem="9qn-0N-leL" secondAttribute="bottom" id="bTh-mS-dCu"/>
+                            <constraint firstItem="Y7o-hW-29E" firstAttribute="trailing" secondItem="9qn-0N-leL" secondAttribute="trailing" id="dkO-s3-ySe"/>
+                            <constraint firstItem="9qn-0N-leL" firstAttribute="leading" secondItem="Y7o-hW-29E" secondAttribute="leading" id="j3T-Ie-hJc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Y7o-hW-29E"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="9qn-0N-leL" id="h64-c0-N20"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g7B-ai-hVP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1657" y="-94"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="sHe-3o-i7L">

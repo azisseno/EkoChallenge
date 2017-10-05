@@ -12,6 +12,7 @@
 		1070E1DB1F86249800434F89 /* Favorite+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1070E1D91F86249800434F89 /* Favorite+CoreDataProperties.swift */; };
 		107819581F8627B800A0FC7C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107819571F8627B800A0FC7C /* CoreDataStack.swift */; };
 		1078195C1F863D2200A0FC7C /* FavoriteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1078195B1F863D2100A0FC7C /* FavoriteButtonView.swift */; };
+		1078195F1F86449F00A0FC7C /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1078195E1F86449F00A0FC7C /* DetailController.swift */; };
 		10BAD5E21F860951009661CD /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BAD5E11F860951009661CD /* LoadingCell.swift */; };
 		10F47EBF1F852B7C00B1A387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47EBE1F852B7C00B1A387 /* AppDelegate.swift */; };
 		10F47EC41F852B7C00B1A387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F47EC21F852B7C00B1A387 /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 		1070E1D91F86249800434F89 /* Favorite+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		107819571F8627B800A0FC7C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		1078195B1F863D2100A0FC7C /* FavoriteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButtonView.swift; sourceTree = "<group>"; };
+		1078195E1F86449F00A0FC7C /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		10BAD5E11F860951009661CD /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
 		10F47EBB1F852B7C00B1A387 /* EkoChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EkoChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F47EBE1F852B7C00B1A387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,14 @@
 				107819571F8627B800A0FC7C /* CoreDataStack.swift */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		1078195D1F86448F00A0FC7C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				1078195E1F86449F00A0FC7C /* DetailController.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		10BAD5CD1F85F42E009661CD /* Extensions */ = {
@@ -234,6 +244,7 @@
 		10F47F011F85DF8600B1A387 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				1078195D1F86448F00A0FC7C /* Detail */,
 				10F47F041F85DFE500B1A387 /* Users */,
 				10F47EBE1F852B7C00B1A387 /* AppDelegate.swift */,
 			);
@@ -477,6 +488,7 @@
 				1070E1DB1F86249800434F89 /* Favorite+CoreDataProperties.swift in Sources */,
 				10F47EF41F85D7B700B1A387 /* SizaParser.swift in Sources */,
 				10F47F0B1F85EDF600B1A387 /* UserCell.swift in Sources */,
+				1078195F1F86449F00A0FC7C /* DetailController.swift in Sources */,
 				10F47EC71F852B7C00B1A387 /* EkoChallenge.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
