@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1070E1D71F8616F200434F89 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1070E1D61F8616F200434F89 /* UIView.swift */; };
+		1070E1DA1F86249800434F89 /* Favorite+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1070E1D81F86249800434F89 /* Favorite+CoreDataClass.swift */; };
+		1070E1DB1F86249800434F89 /* Favorite+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1070E1D91F86249800434F89 /* Favorite+CoreDataProperties.swift */; };
+		107819581F8627B800A0FC7C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107819571F8627B800A0FC7C /* CoreDataStack.swift */; };
+		1078195C1F863D2200A0FC7C /* FavoriteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1078195B1F863D2100A0FC7C /* FavoriteButtonView.swift */; };
+		10BAD5E21F860951009661CD /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BAD5E11F860951009661CD /* LoadingCell.swift */; };
 		10F47EBF1F852B7C00B1A387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47EBE1F852B7C00B1A387 /* AppDelegate.swift */; };
-		10F47EC11F852B7C00B1A387 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47EC01F852B7C00B1A387 /* ViewController.swift */; };
 		10F47EC41F852B7C00B1A387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F47EC21F852B7C00B1A387 /* Main.storyboard */; };
 		10F47EC71F852B7C00B1A387 /* EkoChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10F47EC51F852B7C00B1A387 /* EkoChallenge.xcdatamodeld */; };
 		10F47EC91F852B7C00B1A387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F47EC81F852B7C00B1A387 /* Assets.xcassets */; };
 		10F47ECC1F852B7C00B1A387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F47ECA1F852B7C00B1A387 /* LaunchScreen.storyboard */; };
 		10F47ED71F852B7C00B1A387 /* EkoChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47ED61F852B7C00B1A387 /* EkoChallengeTests.swift */; };
 		10F47EE21F852B7C00B1A387 /* EkoChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47EE11F852B7C00B1A387 /* EkoChallengeUITests.swift */; };
+		10F47EF21F85D72C00B1A387 /* SizaRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47EF11F85D72C00B1A387 /* SizaRequest.swift */; };
+		10F47EF41F85D7B700B1A387 /* SizaParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47EF31F85D7B700B1A387 /* SizaParser.swift */; };
+		10F47EF61F85D7D900B1A387 /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47EF51F85D7D900B1A387 /* ApiHelper.swift */; };
+		10F47EF91F85D97900B1A387 /* GetUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47EF81F85D97900B1A387 /* GetUsers.swift */; };
+		10F47EFE1F85DA0300B1A387 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47EFD1F85DA0300B1A387 /* User.swift */; };
+		10F47F031F85DFC300B1A387 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47F021F85DFC300B1A387 /* UsersViewController.swift */; };
+		10F47F061F85DFF400B1A387 /* UsersViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47F051F85DFF400B1A387 /* UsersViewController+TableView.swift */; };
+		10F47F091F85E10800B1A387 /* BaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47F081F85E10800B1A387 /* BaseHelper.swift */; };
+		10F47F0B1F85EDF600B1A387 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47F0A1F85EDF600B1A387 /* UserCell.swift */; };
+		1AAF9CDB0892EA54C673AF87 /* Pods_EkoChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3980956F7F2A35F9E38753 /* Pods_EkoChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1070E1D61F8616F200434F89 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		1070E1D81F86249800434F89 /* Favorite+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1070E1D91F86249800434F89 /* Favorite+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		107819571F8627B800A0FC7C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		1078195B1F863D2100A0FC7C /* FavoriteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButtonView.swift; sourceTree = "<group>"; };
+		10BAD5E11F860951009661CD /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
 		10F47EBB1F852B7C00B1A387 /* EkoChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EkoChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F47EBE1F852B7C00B1A387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		10F47EC01F852B7C00B1A387 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10F47EC31F852B7C00B1A387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10F47EC61F852B7C00B1A387 /* EkoChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EkoChallenge.xcdatamodel; sourceTree = "<group>"; };
 		10F47EC81F852B7C00B1A387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +69,18 @@
 		10F47EDD1F852B7C00B1A387 /* EkoChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkoChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F47EE11F852B7C00B1A387 /* EkoChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoChallengeUITests.swift; sourceTree = "<group>"; };
 		10F47EE31F852B7C00B1A387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10F47EF11F85D72C00B1A387 /* SizaRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizaRequest.swift; sourceTree = "<group>"; };
+		10F47EF31F85D7B700B1A387 /* SizaParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizaParser.swift; sourceTree = "<group>"; };
+		10F47EF51F85D7D900B1A387 /* ApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
+		10F47EF81F85D97900B1A387 /* GetUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUsers.swift; sourceTree = "<group>"; };
+		10F47EFD1F85DA0300B1A387 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		10F47F021F85DFC300B1A387 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		10F47F051F85DFF400B1A387 /* UsersViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UsersViewController+TableView.swift"; sourceTree = "<group>"; };
+		10F47F081F85E10800B1A387 /* BaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseHelper.swift; sourceTree = "<group>"; };
+		10F47F0A1F85EDF600B1A387 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		5B3980956F7F2A35F9E38753 /* Pods_EkoChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EkoChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		939AC2FFD4A7E75B19DE5965 /* Pods-EkoChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkoChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-EkoChallenge/Pods-EkoChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		F1AEFE57216AF517D51D8B1B /* Pods-EkoChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkoChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EkoChallenge/Pods-EkoChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAF9CDB0892EA54C673AF87 /* Pods_EkoChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +109,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		107819561F8627AB00A0FC7C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				107819571F8627B800A0FC7C /* CoreDataStack.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		10BAD5CD1F85F42E009661CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1070E1D61F8616F200434F89 /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		10F47EB21F852B7C00B1A387 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +132,8 @@
 				10F47ED51F852B7C00B1A387 /* EkoChallengeTests */,
 				10F47EE01F852B7C00B1A387 /* EkoChallengeUITests */,
 				10F47EBC1F852B7C00B1A387 /* Products */,
+				5430810063F56999ACB6C42E /* Pods */,
+				789CCACF458BE360F972BD03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +150,10 @@
 		10F47EBD1F852B7C00B1A387 /* EkoChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				10F47EBE1F852B7C00B1A387 /* AppDelegate.swift */,
-				10F47EC01F852B7C00B1A387 /* ViewController.swift */,
-				10F47EC21F852B7C00B1A387 /* Main.storyboard */,
+				10F47EFA1F85D98F00B1A387 /* Models */,
+				10F47EF01F85D70B00B1A387 /* Core */,
+				10F47F001F85DF7D00B1A387 /* Views */,
+				10F47F011F85DF8600B1A387 /* App */,
 				10F47EC81F852B7C00B1A387 /* Assets.xcassets */,
 				10F47ECA1F852B7C00B1A387 /* LaunchScreen.storyboard */,
 				10F47ECD1F852B7C00B1A387 /* Info.plist */,
@@ -128,6 +180,92 @@
 			path = EkoChallengeUITests;
 			sourceTree = "<group>";
 		};
+		10F47EEF1F85305F00B1A387 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				10F47EF81F85D97900B1A387 /* GetUsers.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		10F47EF01F85D70B00B1A387 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				107819561F8627AB00A0FC7C /* CoreData */,
+				10BAD5CD1F85F42E009661CD /* Extensions */,
+				10F47EEF1F85305F00B1A387 /* API */,
+				10F47EF71F85D93E00B1A387 /* Request */,
+				10F47F081F85E10800B1A387 /* BaseHelper.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		10F47EF71F85D93E00B1A387 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				10F47EF11F85D72C00B1A387 /* SizaRequest.swift */,
+				10F47EF31F85D7B700B1A387 /* SizaParser.swift */,
+				10F47EF51F85D7D900B1A387 /* ApiHelper.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		10F47EFA1F85D98F00B1A387 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1070E1D81F86249800434F89 /* Favorite+CoreDataClass.swift */,
+				1070E1D91F86249800434F89 /* Favorite+CoreDataProperties.swift */,
+				10F47EFD1F85DA0300B1A387 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		10F47F001F85DF7D00B1A387 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				10F47EC21F852B7C00B1A387 /* Main.storyboard */,
+				10F47F0A1F85EDF600B1A387 /* UserCell.swift */,
+				10BAD5E11F860951009661CD /* LoadingCell.swift */,
+				1078195B1F863D2100A0FC7C /* FavoriteButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		10F47F011F85DF8600B1A387 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				10F47F041F85DFE500B1A387 /* Users */,
+				10F47EBE1F852B7C00B1A387 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		10F47F041F85DFE500B1A387 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				10F47F021F85DFC300B1A387 /* UsersViewController.swift */,
+				10F47F051F85DFF400B1A387 /* UsersViewController+TableView.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		5430810063F56999ACB6C42E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1AEFE57216AF517D51D8B1B /* Pods-EkoChallenge.debug.xcconfig */,
+				939AC2FFD4A7E75B19DE5965 /* Pods-EkoChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		789CCACF458BE360F972BD03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B3980956F7F2A35F9E38753 /* Pods_EkoChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10F47EE61F852B7C00B1A387 /* Build configuration list for PBXNativeTarget "EkoChallenge" */;
 			buildPhases = (
+				FF59DA0AC338B5C518340EB4 /* [CP] Check Pods Manifest.lock */,
 				10F47EB71F852B7C00B1A387 /* Sources */,
 				10F47EB81F852B7C00B1A387 /* Frameworks */,
 				10F47EB91F852B7C00B1A387 /* Resources */,
+				895F276132DC3B19E2755CCA /* [CP] Embed Pods Frameworks */,
+				4D876155E439DEF9F2D8F247 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +398,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D876155E439DEF9F2D8F247 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EkoChallenge/Pods-EkoChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		895F276132DC3B19E2755CCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EkoChallenge/Pods-EkoChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MapleBacon/MapleBacon.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapleBacon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EkoChallenge/Pods-EkoChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF59DA0AC338B5C518340EB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EkoChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10F47EB71F852B7C00B1A387 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10F47EC11F852B7C00B1A387 /* ViewController.swift in Sources */,
+				10F47EF21F85D72C00B1A387 /* SizaRequest.swift in Sources */,
+				1078195C1F863D2200A0FC7C /* FavoriteButtonView.swift in Sources */,
+				10F47EF61F85D7D900B1A387 /* ApiHelper.swift in Sources */,
+				10F47F091F85E10800B1A387 /* BaseHelper.swift in Sources */,
+				1070E1DA1F86249800434F89 /* Favorite+CoreDataClass.swift in Sources */,
 				10F47EBF1F852B7C00B1A387 /* AppDelegate.swift in Sources */,
+				10F47EFE1F85DA0300B1A387 /* User.swift in Sources */,
+				10F47F061F85DFF400B1A387 /* UsersViewController+TableView.swift in Sources */,
+				107819581F8627B800A0FC7C /* CoreDataStack.swift in Sources */,
+				1070E1D71F8616F200434F89 /* UIView.swift in Sources */,
+				10F47EF91F85D97900B1A387 /* GetUsers.swift in Sources */,
+				10F47F031F85DFC300B1A387 /* UsersViewController.swift in Sources */,
+				10BAD5E21F860951009661CD /* LoadingCell.swift in Sources */,
+				1070E1DB1F86249800434F89 /* Favorite+CoreDataProperties.swift in Sources */,
+				10F47EF41F85D7B700B1A387 /* SizaParser.swift in Sources */,
+				10F47F0B1F85EDF600B1A387 /* UserCell.swift in Sources */,
 				10F47EC71F852B7C00B1A387 /* EkoChallenge.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,13 +641,15 @@
 		};
 		10F47EE71F852B7C00B1A387 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1AEFE57216AF517D51D8B1B /* Pods-EkoChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7TK32MKP4J;
+				DEVELOPMENT_TEAM = 9SQSBS3ANA;
 				INFOPLIST_FILE = EkoChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = it.siza.EkoChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = it.altstrts.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,13 +658,15 @@
 		};
 		10F47EE81F852B7C00B1A387 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939AC2FFD4A7E75B19DE5965 /* Pods-EkoChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7TK32MKP4J;
+				DEVELOPMENT_TEAM = 9SQSBS3ANA;
 				INFOPLIST_FILE = EkoChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = it.siza.EkoChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = it.altstrts.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
