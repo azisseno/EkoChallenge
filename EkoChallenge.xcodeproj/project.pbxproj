@@ -13,11 +13,11 @@
 		107819581F8627B800A0FC7C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107819571F8627B800A0FC7C /* CoreDataStack.swift */; };
 		1078195C1F863D2200A0FC7C /* FavoriteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1078195B1F863D2100A0FC7C /* FavoriteButtonView.swift */; };
 		1078195F1F86449F00A0FC7C /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1078195E1F86449F00A0FC7C /* DetailController.swift */; };
+		107819621F86487300A0FC7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107819611F86487300A0FC7C /* Assets.xcassets */; };
 		10BAD5E21F860951009661CD /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BAD5E11F860951009661CD /* LoadingCell.swift */; };
 		10F47EBF1F852B7C00B1A387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47EBE1F852B7C00B1A387 /* AppDelegate.swift */; };
 		10F47EC41F852B7C00B1A387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F47EC21F852B7C00B1A387 /* Main.storyboard */; };
 		10F47EC71F852B7C00B1A387 /* EkoChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10F47EC51F852B7C00B1A387 /* EkoChallenge.xcdatamodeld */; };
-		10F47EC91F852B7C00B1A387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F47EC81F852B7C00B1A387 /* Assets.xcassets */; };
 		10F47ECC1F852B7C00B1A387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F47ECA1F852B7C00B1A387 /* LaunchScreen.storyboard */; };
 		10F47ED71F852B7C00B1A387 /* EkoChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47ED61F852B7C00B1A387 /* EkoChallengeTests.swift */; };
 		10F47EE21F852B7C00B1A387 /* EkoChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F47EE11F852B7C00B1A387 /* EkoChallengeUITests.swift */; };
@@ -57,12 +57,12 @@
 		107819571F8627B800A0FC7C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		1078195B1F863D2100A0FC7C /* FavoriteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButtonView.swift; sourceTree = "<group>"; };
 		1078195E1F86449F00A0FC7C /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		107819611F86487300A0FC7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10BAD5E11F860951009661CD /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
 		10F47EBB1F852B7C00B1A387 /* EkoChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EkoChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F47EBE1F852B7C00B1A387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F47EC31F852B7C00B1A387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10F47EC61F852B7C00B1A387 /* EkoChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EkoChallenge.xcdatamodel; sourceTree = "<group>"; };
-		10F47EC81F852B7C00B1A387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10F47ECB1F852B7C00B1A387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10F47ECD1F852B7C00B1A387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10F47ED21F852B7C00B1A387 /* EkoChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkoChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,10 +164,10 @@
 				10F47EF01F85D70B00B1A387 /* Core */,
 				10F47F001F85DF7D00B1A387 /* Views */,
 				10F47F011F85DF8600B1A387 /* App */,
-				10F47EC81F852B7C00B1A387 /* Assets.xcassets */,
 				10F47ECA1F852B7C00B1A387 /* LaunchScreen.storyboard */,
 				10F47ECD1F852B7C00B1A387 /* Info.plist */,
 				10F47EC51F852B7C00B1A387 /* EkoChallenge.xcdatamodeld */,
+				107819611F86487300A0FC7C /* Assets.xcassets */,
 			);
 			path = EkoChallenge;
 			sourceTree = "<group>";
@@ -388,7 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10F47ECC1F852B7C00B1A387 /* LaunchScreen.storyboard in Resources */,
-				10F47EC91F852B7C00B1A387 /* Assets.xcassets in Resources */,
+				107819621F86487300A0FC7C /* Assets.xcassets in Resources */,
 				10F47EC41F852B7C00B1A387 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

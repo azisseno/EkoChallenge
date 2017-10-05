@@ -129,7 +129,7 @@ class UserCell: UITableViewCell {
     
     func configure(user: User) {
         if let url = URL(string: user.avatarUrl) {
-            avatarImageView.setImage(withUrl: url, placeholder: UIImage(named: "placeholder"), crossFadePlaceholder: true)
+            avatarImageView.setImage(withUrl: url, placeholder: #imageLiteral(resourceName: "placeholder"), crossFadePlaceholder: true)
         }
         loginLabel.text = user.login
         typeLabel.text = user.type
@@ -139,7 +139,7 @@ class UserCell: UITableViewCell {
     }
     
     private func renderFavButton(userId: String) {
-        favoriteButton.image = #imageLiteral(resourceName: "fav_deactive")
+        favoriteButton.image = #imageLiteral(resourceName: "favorite")
         let isFav = CoreDataStack.isFavoritedUser(with: userId)
         if isFav {
             favoriteButton.isSelected = true
